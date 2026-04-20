@@ -49,6 +49,9 @@ Automates creating and capturing **Free Fire guest accounts** via **Frida**, for
     python3 send_like.py
 ---
 
+## Termux quick start
+- For Android/Termux setup and troubleshooting, see **`TERMUX_RUN.md`**.
+
 ## 👤 Guest account creation workflow
 - Attach `capture_and_save_guest.js` while launching the game to hook SharedPreferences and relevant classes, collecting uid/password/token.
 - The script reads an existing `guest_accounts.json` in the app’s external media directory, appends unique entries, and writes atomically.
